@@ -10,7 +10,7 @@ $world="'s world";
 echo $hello.$name.$world;
 $tech_boost="tech";
 echo $tech_boost. "boost";
-$２０１８_calendar = [
+$calendar = [
   "January" => "1月",
   "February" => "2月",
   "March" => "3月",
@@ -24,7 +24,7 @@ $２０１８_calendar = [
   "November" => "11月",
   "December" => "12月"
 ];
-echo $２０１８_calendar["December"];
+echo $calendar["December"];
 $height = 160;
 if ($height < 150) {
   echo "150cm 未満の方はご乗車できません。";
